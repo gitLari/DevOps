@@ -10,3 +10,8 @@ __bold__
 ## otsikko 2
 ### otsikko 3
 (www.google.fi) URL osoite
+
+```javascript
+var word = "world";
+console.log ("hello "+word);
+```
