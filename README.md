@@ -16,4 +16,4 @@ var word = "world";
 console.log ("hello "+word);
 ```
 
-ja vielä lisää tekstiä
+ja vielä lisää tekstiä sanoisin
