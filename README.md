@@ -15,3 +15,5 @@ __bold__
 var word = "world";
 console.log ("hello "+word);
 ```
+
+ja vielä lisää tekstiä
