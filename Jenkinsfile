@@ -21,6 +21,9 @@ pipeline {
       }
       stages {
         stage('Build') {
+          when {
+              branch='Dev'
+          }
           steps {
             sh 'npm install'
           }
