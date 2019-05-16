@@ -44,8 +44,7 @@ pipeline {
             }
           agent any
           steps {
-            sh 'echo hello'
-            sh 
+            sh 'echo hello' 
             }
         }
       }
