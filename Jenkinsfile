@@ -42,7 +42,8 @@ pipeline {
           when {
             branch 'Dev'
             }
-          agent anysteps {
+          agent any
+          steps {
             sh 'echo hello'
             }
         }
