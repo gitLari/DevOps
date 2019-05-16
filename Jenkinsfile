@@ -46,7 +46,6 @@ pipeline {
             sh 'echo hello'
             }
         }
-        }
       }
     }
   }
