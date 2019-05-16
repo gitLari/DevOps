@@ -40,7 +40,7 @@ pipeline {
         }
         stage('deploy fo production'){
           when {
-            branch 'master'
+            branch 'Dev'
             }
           agent anysteps {
             sh 'echo hello'
