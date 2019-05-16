@@ -38,6 +38,15 @@ pipeline {
             sh 'npm start'
           }
         }
+        stage('deploy fo production'){
+          when {
+            branch 'master'
+            }
+          agent anysteps {
+            sh 'echo hello'
+            }
+        }
+        }
       }
     }
   }
