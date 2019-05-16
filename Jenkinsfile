@@ -22,7 +22,7 @@ pipeline {
       stages {
         stage('Build') {
           when {
-              branch='Dev'
+              branch 'Dev'
           }
           steps {
             sh 'npm install'
@@ -40,11 +40,12 @@ pipeline {
         }
         stage('deploy fo production') {
           when {
-            branch ('Dev')
+            branch 'Dev'
             }
           agent any
           steps {
             sh 'echo hello'
+            sh 
             }
         }
       }
