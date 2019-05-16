@@ -38,9 +38,9 @@ pipeline {
             sh 'npm start'
           }
         }
-        stage('deploy fo production'){
+        stage('deploy fo production') {
           when {
-            branch 'Dev'
+            branch ('Dev')
             }
           agent any
           steps {
